@@ -19,7 +19,7 @@ Jenkins_Plugins Installations
 
 Sonar password:Sugur@123
 
-sonar_token: squ_a5dc91cc4eceae2f5042ae6306d0af2085
+sonar_token: squ_3dca8b7ea1771c11842cb2c28187d01d5589312e
 
 1.Jenkins==Manage-jenkins==system==AddSonarQube
 Name
