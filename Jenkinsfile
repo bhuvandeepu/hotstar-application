@@ -62,12 +62,12 @@ pipeline{
         }
         stage("TRIVY"){
             steps{
-                sh "trivy image acecloudacademy/hotstar:latest > trivyimage.txt" 
+                sh "trivy image bhuvandeepu/hotstar:latest > trivyimage.txt" 
             }
         }
         stage('Deploy to container'){
             steps{
-                sh 'docker run -d --name hotstar -p 3000:3000 acecloudacademy/hotstar:latest'
+                sh 'docker run -d --name hotstar -p 3000:3000 bhuvandeepu/hotstar:latest'
             }
         }
 
